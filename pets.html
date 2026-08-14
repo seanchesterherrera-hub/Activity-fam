@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sean Herrera | Cat Memorial & Pet Gallery</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <style>
+        body {
+            background-color: LavenderBlush;
+            font-family: Arial, sans-serif;
+            color: Black;
+            text-align: center;
+            padding: 20px;
+        }
+        .nav-links {
+            margin-bottom: 25px;
+        }
+        .nav-links a {
+            color: MediumVioletRed;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+        .nav-links a:hover {
+            color: DeepPink;
+            text-decoration: underline;
+        }
+        .memorial-text-container {
+            max-width: 450px;
+            margin: 0 auto 20px auto;
+            background-color: LavenderBlush;
+            border-bottom: 2px solid MediumVioletRed;
+            padding: 15px;
+        }
+        .memorial-text-container p {
+            margin: 8px 0;
+            font-size: 16px;
+        }
+        .main-pet-pic {
+            border-radius: 10px;
+            border-bottom: 4px solid MediumVioletRed;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .gallery-container {
+            max-width: 900px; 
+            margin: 40px auto 0 auto;
+            padding: 20px;
+        }
+        .gallery-title {
+            color: MediumVioletRed;
+            font-size: 24px;
+            margin-bottom: 25px;
+            border-bottom: 2px solid MediumVioletRed;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+        .gallery-grid {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .gallery-item-box {
+            background-color: white;
+            border: 1px solid rgba(199, 21, 133, 0.2);
+            border-radius: 12px;
+            padding: 15px;
+            width: 160px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 6px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .gallery-item-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 15px rgba(199, 21, 133, 0.15);
+        }
+        .gallery-item {
+            border-radius: 8px;
+            object-fit: cover;
+            border-bottom: 3px solid MediumVioletRed;
+        }
+        .gallery-item-box p {
+            margin: 2px 0;
+            color: #333;
+            font-size: 13px;
+            text-align: left;
+            width: 100%;
+        }
+        .gallery-item-box p strong {
+            color: MediumVioletRed;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav-links">
+        <p style="text-align: center"> 
+          <a href="Index.html" style="color: MediumVioletRed; text-decoration: none; font-weight: bold;">PROFILE</a>
+      |
+            <a href="Family.html">FAMILY</a>
+            <span style="margin: 0 10px;">|</span>
+            <a href="aboutME.html">ABOUT ME</a>
+            <span style="margin: 0 10px;">|</span>
+            <a href="Pets.html">PET CARE</a>
+        </p>
+    </div>
+
+    <div style="text-align: center; margin-bottom: 25px;">
+        <p><b style="color: MediumVioletRed;">ABOUT ME TO HOY</b></p>
+    </div>
+
+    <h1 style="background-color: Pink; color: MediumVioletRed; font-size: 24px; border: 2px solid MediumVioletRed; display: inline-block; padding: 5px 10px; border-radius: 5px;">
+        SA PUSA KO TO MAN
+    </h1>
+
+    <div class="memorial-text-container">
+        <p><strong>Information about my cat</strong></p>
+        <p style="color: MediumVioletRed;"><strong>Passed</strong> away on May 15, 2026</p>
+        <p style="color: MediumVioletRed;"><strong>Age</strong> : 7 months old </p>
+        <p style="color: MediumVioletRed;"><strong>Personality</strong> : Clingy and lovely he always cling on our laps</p>
+        <p style="color: MediumVioletRed;"><strong>Breed</strong> : Persian/Less hair</p>
+        <p style="color: MediumVioletRed;"><strong>Name</strong> : Casperability</p>
+    </div>
+  
+    <img class="main-pet-pic" src="Baby.jpeg" alt="Pet Picture" width="190" height="190">
+  
+    <div class="gallery-container">
+        <h2 class="gallery-title">My Pet Gallery</h2>
+        <div class="gallery-grid">
+            
+            
+            <div class="gallery-item-box">
+                <img class="gallery-item" src="pet1.jpeg" alt="Pet 1" width="130" height="140">
+                <p><strong>NAME:</strong> Picka</p>
+                <p><strong>AGE:</strong> 5 mos</p>
+                <p><strong>PER.:</strong> Sassy</p>
+                <p><strong>SEX:</strong> Male</p>
+                <p><strong>BREED:</strong> Persian</p>
+            </div>
+          
+            
+            <div class="gallery-item-box">
+                <img class="gallery-item" src="pet2.jpeg" alt="Pet 2" width="130" height="140">
+                <p><strong>NAME:</strong> Banny</p>
+                <p><strong>AGE:</strong> 8 mos</p>
+                <p><strong>PER.:</strong> Avoidant</p>
+                <p><strong>SEX:</strong> Female</p>
+                <p><strong>BREED:</strong> Persian</p>
+            </div>
+          
+            
+            <div class="gallery-item-box">
+                <img class="gallery-item" src="pet3.jpeg" alt="Pet 3" width="130" height="140">
+                <p><strong>NAME:</strong> Shimer</p>
+                <p><strong>AGE:</strong> 8 mos</p>
+                <p><strong>PER.:</strong> Calm/Eats</p>
+                <p><strong>SEX:</strong> Male</p>
+                <p><strong>BREED:</strong> Persian</p>
+            </div>
+
+            
+            <div class="gallery-item-box">
+                <img class="gallery-item" src="pet4.jpeg" alt="Pet 4" width="130" height="140">
+            </div>
+
+            
+            <div class="gallery-item-box">
+                <img class="gallery-item" src="pet5.jpeg" alt="Pet 5" width="130" height="140">
+            </div>
+
+          
+            <div class="gallery-item-box">
+                <img class="gallery-item" src="pet6.jpeg" alt="Pet 6" width="130" height="140">
+            </div>
+
+            
+            <div class="gallery-item-box">
+                <img class="gallery-item" src="pet7.jpeg" alt="Pet 7" width="130" height="140">
+            </div>
+
+            
+            <div class="gallery-item-box">
+                <img class="gallery-item" src="pet8.jpeg" alt="Pet 8" width="130" height="140">
+            </div>
+
+          
+            <div class="gallery-item-box">
+                <img class="gallery-item" src="pet9.jpeg" alt="Pet 9" width="130" height="140">
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
